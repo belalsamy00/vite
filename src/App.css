@@ -14,3 +14,24 @@ nav,.footer {
   padding: 10px 10px;
   border-radius: 5px;
 }
+label {
+  color: var(--main-color);
+  margin-bottom: 7px;
+  transition: .6s top;
+}
+input {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 1rem  .75rem !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-bottom:1px solid rgb(39, 38, 38) ;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-bottom: 10px !important;
+  background-color: white;
+}
+input:focus {
+outline: 0px;
+}
